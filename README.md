@@ -41,8 +41,11 @@ And contains:
 1. **Fork this repo**
 2. Create your own folder: `openhuman/`
 3. Add your `human.json` file with your profile info
-4. Turn on GitHub Pages (for the `/openhuman` folder)
-5. You’re live! Share your URL like this:
+4. **One-time setup:**
+   - Go to your fork's **Settings > Pages**
+   - Set the source to `main` branch and `/web` folder
+   - (You only need to do this once. All future pushes are live automatically!)
+5. You're live! Share your URL like this:
 
 ```
 https://yourusername.github.io/openhuman/human.json
