@@ -43,8 +43,8 @@ And contains:
 3. Add your `human.json` file with your profile info
 4. **One-time setup:**
    - Go to your fork's **Settings > Pages**
-   - Set the source to `main` branch and `/web` folder
-   - (You only need to do this once. All future pushes are live automatically!)
+   - Set the source to `main` branch and either `/ (root)` or `/web` folder
+   - (If you choose root, you'll be redirected to the site in `/web` automatically. You only need to do this once. All future pushes are live automatically!)
 5. You're live! Share your URL like this:
 
 ```
