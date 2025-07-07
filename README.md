@@ -7,7 +7,7 @@
 
 ## 🤔 What is this?
 
-**OpenHuman Protocol** is a tiny spec and open movement for expressing who you are online — not with a resume, not with a dating profile — but with a simple, honest, structured file.
+**OpenHuman Protocol** is a tiny spec and open movement for expressing who you are online, not with a resume, not with a dating profile - but with a simple, honest, structured file.
 
 Your identity lives here:
 
@@ -55,7 +55,7 @@ https://yourusername.github.io/openhuman/human.json
 - 🔗 No platform lock-in
 - 💬 Informal, expressive identity
 - 🧑‍🚀 Discover others like you
-- ✨ Works like a personal README — but cooler
+- ✨ Works like a personal README, but cooler
 - 💥 Forkable, remixable, weirdly poetic
 
 ---
@@ -72,7 +72,7 @@ https://yourusername.github.io/openhuman/human.json
 ## 🧪 Examples
 
 - [`once-human`](https://once-human.github.io/openhuman/human.json)
-- [`kush`](https://kushcodes.github.io/openhuman/human.json)
+- [`Zor0000`](https://Zor0000.github.io/openhuman/human.json)
 - Submit yours via PR or DM for showcase inclusion
 
 ---
@@ -93,4 +93,4 @@ Made with love, chaos, and caffeine ☕
 
 ## 📜 License
 
-MIT — Free to fork, remix, and make your own weird identity protocol.
+MIT : Free to fork, remix, and make your own weird identity protocol.

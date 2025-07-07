@@ -1,0 +1,14 @@
+{
+  "name": "Onkar Yaglewad",
+  "handle": "once-human",
+  "title": "Builder of weird things",
+  "tags": ["flutter", "linux", "music", "writing"],
+  "now_playing": "Mac Miller – Good News",
+  "building": ["Timeline", "OpenHuman"],
+  "open_to": ["collabs", "cofounders", "talks"],
+  "contact": {
+    "twitter": "@oncehuman_",
+    "email": "me@oncehuman.dev"
+  },
+  "vibe_score": 87
+} 

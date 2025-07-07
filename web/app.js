@@ -1,0 +1,19 @@
+fetch('../openhuman/human.json')
+  .then(res => res.json())
+  .then(profile => {
+    const el = document.getElementById('profile');
+    el.innerHTML = `
+      <div class="mb-2"><strong>Name:</strong> ${profile.name}</div>
+      <div class="mb-2"><strong>Handle:</strong> @${profile.handle}</div>
+      <div class="mb-2"><strong>Title:</strong> ${profile.title}</div>
+      <div class="mb-2"><strong>Tags:</strong> ${profile.tags.join(', ')}</div>
+      <div class="mb-2"><strong>Now Playing:</strong> ${profile.now_playing}</div>
+      <div class="mb-2"><strong>Building:</strong> ${profile.building.join(', ')}</div>
+      <div class="mb-2"><strong>Open To:</strong> ${profile.open_to.join(', ')}</div>
+      <div class="mb-2"><strong>Contact:</strong> Twitter: ${profile.contact.twitter}, Email: ${profile.contact.email}</div>
+      <div class="mb-2"><strong>Vibe Score:</strong> ${profile.vibe_score}
+    `;
+  })
+  .catch(() => {
+    document.getElementById('profile').innerText = 'Profile not found.';
+  }); 
