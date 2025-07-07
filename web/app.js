@@ -1,4 +1,4 @@
-fetch('../openhuman/human.json')
+fetch('openhuman/human.json')
   .then(res => res.json())
   .then(profile => {
     const el = document.getElementById('profile');
