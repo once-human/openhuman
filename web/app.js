@@ -13,7 +13,7 @@ fetch('openhuman/human.json')
       <div class="mb-2"><strong>Now Playing:</strong> ${profile.now_playing}</div>
       <div class="mb-2"><strong>Building:</strong> ${profile.building.join(', ')}</div>
       <div class="mb-2"><strong>Open To:</strong> ${profile.open_to.join(', ')}</div>
-      <div class="mb-2"><strong>Contact:</strong> Twitter: ${profile.contact.twitter}, Email: ${profile.contact.email}</div>
+      <div class="mb-2"><strong>Contact:</strong> Twitter: <a href='https://twitter.com/${profile.contact.twitter.replace('@','')}' target='_blank'>${profile.contact.twitter}</a>, Email: <a href='mailto:${profile.contact.email}'>${profile.contact.email}</a></div>
       <div class="mb-2"><strong>Vibe Score:</strong> ${profile.vibe_score}
     `;
   })
