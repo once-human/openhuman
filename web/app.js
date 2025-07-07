@@ -1,4 +1,7 @@
-fetch('openhuman/human.json')
+const base = window.location.pathname.split('/')[1];
+const profilePath = `/${base}/openhuman/human.json`;
+
+fetch(profilePath)
   .then(res => res.json())
   .then(profile => {
     const el = document.getElementById('profile');
